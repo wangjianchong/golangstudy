@@ -5,3 +5,5 @@ https://github.com/widuu/chinese_docker/blob/master/installation/ubuntu.md
 https://github.com/widuu/chinese_docker/blob/master/installation/ubuntu.md#Ubuntu%E5%AE%89%E8%A3%85Docker  
 
 godoc -http=:6060  godoc 离线版的网页文档
+
+http://blog.csdn.net/skh2015java/article/details/53033473  mongo golang
