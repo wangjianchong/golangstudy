@@ -7,7 +7,7 @@ import (
 	"runtime"
 )
 
-const sysflag = "rtasquery"
+const sysflag = "justtest"
 
 var (
 	ShowDebug   = true
