@@ -16,15 +16,19 @@ http://www.cnblogs.com/shiningrise/p/5503955.html git命令
 
 git status 检查当前文件状态
 git status -s --short是状态简览
-
+(https://git-scm.com/book/zh/v2/Git-%E5%9F%BA%E7%A1%80-%E8%AE%B0%E5%BD%95%E6%AF%8F%E6%AC%A1%E6%9B%B4%E6%96%B0%E5%88%B0%E4%BB%93%E5%BA%93)
 git add 跟踪新文件 
 git add是一个多功能命令,可以用它开始跟踪新文件,或者把已跟踪的文件放到缓存区,还能用于合并时把有冲突的文件标记为已解决状态等.这个命令理解为"添加内容到下一次提交中"而不是"将一个文件添加到项目中"要更加合适.
 git commit 提交
 尽管暂存区域的方式可以精心准备要提交的细节,但是有时候这么做明显是有些繁琐,git提供了一个跳过使用暂存区域的方式,在提交的时候给git commit加上-a选项,git就会自动吧所有已经跟踪过的文件暂存起来一并提交,从而跳过git add步骤.
 git rm 删除文件 
 如果是直接在项目中删除文件,git status中会显示 changes not staged for commit
+
+(https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013744142037508cf42e51debf49668810645e02887691000  git log和git reset命令)
 git log 查看我们提交的历史记录
 git reset --hard HEAD^ 回退到上一个版本
 git reset --hard HEAD^^回退到上一个的上一个版本
 git reset --hard HEAD~100回退到一百个版本前
 git reset --hard 3628164 回退到指定版本,版本号不用写全,git会自己去找
+当然如果回退之后又想回到后面的那个(从未来会退到现在,我们此时此刻在现在想回到刚才的 未来),我们就要记住commit id,
+如果我们没有记住commit id的话我们使用git reflog命令
