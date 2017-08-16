@@ -15,7 +15,11 @@ http://mrljdx.com/2015/04/02/Vi-Vim%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ vim 命
 http://www.cnblogs.com/shiningrise/p/5503955.html git命令
 
 git status 检查当前文件状态
+git status -s --short是状态简览
 
 git add 跟踪新文件 
 git add是一个多功能命令,可以用它开始跟踪新文件,或者把已跟踪的文件放到缓存区,还能用于合并时把有冲突的文件标记为已解决状态等.这个命令理解为"添加内容到下一次提交中"而不是"将一个文件添加到项目中"要更加合适.
+git commit 提交
+尽管暂存区域的方式可以精心准备要提交的细节,但是有时候这么做明显是有些繁琐,git提供了一个跳过使用暂存区域的方式,在提交的时候给git commit加上-a选项,git就会自动吧所有已经跟踪过的文件暂存起来一并提交,从而跳过git add步骤
+git temp storage
 
