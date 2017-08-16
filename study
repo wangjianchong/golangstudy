@@ -13,3 +13,9 @@ http://studygolang.com/articles/6405 mongo 添加索引 golang
 http://mrljdx.com/2015/04/02/Vi-Vim%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/ vim 命令
 
 http://www.cnblogs.com/shiningrise/p/5503955.html git命令
+
+git status 检查当前文件状态
+
+git add 跟踪新文件
+
+
