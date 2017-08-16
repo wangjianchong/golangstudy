@@ -22,4 +22,9 @@ git add是一个多功能命令,可以用它开始跟踪新文件,或者把已�
 git commit 提交
 尽管暂存区域的方式可以精心准备要提交的细节,但是有时候这么做明显是有些繁琐,git提供了一个跳过使用暂存区域的方式,在提交的时候给git commit加上-a选项,git就会自动吧所有已经跟踪过的文件暂存起来一并提交,从而跳过git add步骤.
 git rm 删除文件 
-如果是直接在项目中删除文件,git status中会显示 changes not staged for commit,///
+如果是直接在项目中删除文件,git status中会显示 changes not staged for commit
+git log 查看我们提交的历史记录
+git reset --hard HEAD^ 回退到上一个版本
+git reset --hard HEAD^^回退到上一个的上一个版本
+git reset --hard HEAD~100回退到一百个版本前
+git reset --hard 3628164 回退到指定版本,版本号不用写全,git会自己去找
