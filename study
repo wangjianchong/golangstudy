@@ -62,3 +62,6 @@ sql操作
 *导出sql语句
 group  by  以...条件来分组 / having  具有...属性*
 http://blog.csdn.net/fang_yunliang/article/details/74114912 sql语句
+
+mysql -uroot -proot -d dbname > db.sql  只是导出表结构
+mysql -uroot -proot dbname >db.sql     导出表结构和数据
