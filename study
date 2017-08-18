@@ -52,3 +52,13 @@ http referer 是header的一部分,当浏览器向web服务器发送请求的时
 
 
 http://www.gooseeker.com/doc/thread-4085-1-1.html  网易股票数据api
+
+
+sql操作
+
+创建数据库 数据表 创建普通索引 创建唯一索引
+*修改表结构
+*打印建表的sql语句
+*导出sql语句
+group  by  以...条件来分组 / having  具有...属性*
+http://blog.csdn.net/fang_yunliang/article/details/74114912 sql语句
