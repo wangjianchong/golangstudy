@@ -65,3 +65,32 @@ http://blog.csdn.net/fang_yunliang/article/details/74114912 sql语句
 
 mysql -uroot -proot -d dbname > db.sql  只是导出表结构
 mysql -uroot -proot dbname >db.sql     导出表结构和数据
+
+
+
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+export GOROOT=/usr/local/go
+export GOPATH=/Users/Sunny/gopath
+export PATH=$PATH:/usr/local/apache-tomcat-8.5.14/bin:$GOPATH/bin
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home
+PATH=$JAVA_HOME/bin:$PATH:.
+CLASSPATH=$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib/dt.jar:.
+export JAVA_HOME
+export PATH
+export CLASSPATH
+
+
+#    export http_proxy=”http://127.0.0.1:8123/”
+
+#    export https_proxy=”http://127.0.0.1:8123/”
+
+#    export ftp_proxy=”http://127.0.0.1:8123/”
+
+#    export no_proxy=”localhost,127.0.0.1,localaddress,.localdomain.com”
+
+#    export HTTP_PROXY=”http://127.0.0.1:8123/”
+
+
+`
