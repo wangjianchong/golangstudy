@@ -95,3 +95,7 @@ export CLASSPATH
 
 EXISTS用于检查子查询是否至少会返回一行数据，该子查询实际上并不返回任何数据，而是返回值True或False
 指定一个子查询,检查行的存在 如果存在则返回,如果不存在,则不返回
+
+
+http://www.cnblogs.com/gaizai/archive/2012/06/12/2546755.html  mysql搭建Amoeba  --> 负载均衡架构
+http://www.cnblogs.com/CareySon/p/3627594.html 数据库集群
