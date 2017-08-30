@@ -129,4 +129,5 @@ https请求 http+ssl/tls在http上面加了一层处理加密信息的模块.服
 是不能破解的,信息使用公钥加密,只能使用私钥进行解密查看其中的内容.
 这种加密是单向的,所以被称为非对称加密算法
 常见的加密算法 SSH TLS
-http://dmdgeeker.com/goBook/docs/ch09/crypto.html  aes加密解密 golang 
+http://dmdgeeker.com/goBook/docs/ch09/crypto.html  aes加密解密 golang
+http://www.jianshu.com/p/cc20d90ac138 使用sql查看mysql数据库大小 
