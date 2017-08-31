@@ -130,4 +130,6 @@ https请求 http+ssl/tls在http上面加了一层处理加密信息的模块.服
 这种加密是单向的,所以被称为非对称加密算法
 常见的加密算法 SSH TLS
 http://dmdgeeker.com/goBook/docs/ch09/crypto.html  aes加密解密 golang
-http://www.jianshu.com/p/cc20d90ac138 使用sql查看mysql数据库大小 
+http://www.jianshu.com/p/cc20d90ac138 使用sql查看mysql数据库大小
+
+http://www.ghugo.com/update-multiple-rows-with-different-values-and-a-single-sql-query/ 批量更新多条记录的不同值 
