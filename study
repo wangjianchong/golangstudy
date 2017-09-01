@@ -135,4 +135,4 @@ http://www.jianshu.com/p/cc20d90ac138 使用sql查看mysql数据库大小
 http://www.ghugo.com/update-multiple-rows-with-different-values-and-a-single-sql-query/ 批量更新多条记录的不同值 
 
 select concat(round(sum(data_length/1024/1024),2),'MB') as data from tables where table_schema='home';
-
+https://www.gitbook.com/book/yeasy/blockchain_guide/details  区块链技术指南
