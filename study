@@ -137,7 +137,17 @@ http://www.ghugo.com/update-multiple-rows-with-different-values-and-a-single-sql
 select concat(round(sum(data_length/1024/1024),2),'MB') as data from tables where table_schema='home';
 https://www.gitbook.com/book/yeasy/blockchain_guide/details  区块链技术指南
 
+
 golang book
 
 
+=======
+http://zhibimo.com/read/wang-miao/mastering-bitcoin/Chapter01.html 精通比特币
+
+golang book
+time.Tick函数挺方便,但是只有程序整个生命周期都需要这个时间时我们使用它比较合适,否则的话我们可以使用如下:
+ticker := time.NewTicker(time.Second)
+<-ticker.C
+ticker.Stop()
+channel的零值是nil,因为对一个nil的channel发送和接收操作会永远阻塞,在select语句中操作nil的channel永远都不会被select到,我们可以使用nil来激活或者禁用case,来达成处理其他输入或输出事件时超时和取消的逻辑.
 
