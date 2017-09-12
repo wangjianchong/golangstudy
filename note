@@ -1,0 +1,69 @@
+17.7.21
+todo 
+1.go - vim
+2.vscode 
+3.oauth
+4.
+
+17.7.24
+1.oauth    *
+2.jddemo完成测试，部署
+3.HADector代码完成 
+4.leetcode两道题
+5.svn的功能  
+6.http & https的区别  
+7.加密 HMAC-SHA1算法  什么意思？？
+8.查看端口占用情况
+
+
+17.7.31
+1.golang书看一章节
+2.laosiji项目看看
+3.Conn 流的概念
+4.https://www.ibm.com/developerworks/cn/linux/1407_liuming_init2/index.html  upstart命令介绍
+5.http://blog.sina.com.cn/s/blog_6dc4dbed01018wmt.html svn树冲突  看！ svn resolve  太万能了吧  感觉开了外挂
+6.makefile 
+7.调试
+8.int int32 int64 区别在哪里  *int是根据平台的位数来决定 32位平台就是32位 64位平台就是64位
+9.select 使用说明
+10.base64
+11.connection的write和read是不是会吃掉字节流的信息
+12.channel 是对应make创建的底层数据结构的引用,当我们复制一个channel或用于函数参数传递时,我们只是拷贝了一个channel的引用,引用者和被引用者应用同一个channel对象,channel零值为nil
+channel支持close操作,关闭channel,随后对channel发送操作都将导致panic异常.关闭的close的channel可以接收之前已经成功发送的数据,当channel中没有数据的话将产生一个零值的数据.使用内置的close函数可以关闭一个channel : close(channel)
+不带缓存的channels:
+happen before 就像我们说X事件在Y事件之前发生 在这里说明的是接受者收到数据,再唤醒发送者,这是个先后顺序.
+
+
+13.ip  127.0.0.1 全局ip  在tcp和http为什么不同
+14.select  timeout 问题  原因
+15.mongo 连接是怎样连接的呢  每次都重新连接吗
+16. package bson 
+17.aes  *aes 一种加密方式
+18.data := data[largenum :] 会变小吗 len   *会变小的
+19.callback函数是怎么一回事呢
+20.init()函数调用在main()函数之前 每个包都可以多个init()函数
+21.bizCode服务 公司的  到底是什么服务
+22.todo  gorm AutoMigrate() 使用 面向对象来对数据库进行操作
+23.想成为敲键盘的艺术家
+24.登录/注册/注销 接口模拟
+25.数据库的查询 高级版 (各种各样的)
+26.创建表 增加索引 提高效率 
+27.模拟导入数据 有没有数据瓶颈
+28.添加监控插件在里面
+29.心跳包 golang
+30.vpn 隧道代理
+31.参数 泛型  应用
+32.GFW 实现原理 
+33.事务 作用  mysql
+18767105477 12346578a
+34.语法糖  函数式编程
+35.下载文件  FunctionPDF productHandler.go文件中
+36.看看simplejson是怎样实现的!!! it is very funny!!
+
+37. json框架 原理   业务代码实现
+38. 看一章 简单的 golang 
+39. 区块链 有没有框架研究或者简单的记事本功能
+
+
+did srv act params vals attrib label
+did     act  mark _adjust
