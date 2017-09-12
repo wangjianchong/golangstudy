@@ -77,4 +77,4 @@ export GOPATH=/home/wangjc/gopath:/home/wangjc/broadlinkwork:/home/wangjc/broadl
 export PATH=$PATH:/home/wangjc/gopath/bin
 
 
-
+dd
