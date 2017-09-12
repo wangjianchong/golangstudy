@@ -67,3 +67,14 @@ happen before 就像我们说X事件在Y事件之前发生 在这里说明的是
 
 did srv act params vals attrib label
 did     act  mark _adjust
+
+
+
+export GOROOT=/home/wangjc/golang1.8
+export PATH=$PATH:$GOROOT/bin
+export  GOROOT_BOOTSTRAP=/home/wangjc/go1.4
+export GOPATH=/home/wangjc/gopath:/home/wangjc/broadlinkwork:/home/wangjc/broadlinkwork/cloud_trunk/pkg:/home/wangjc/broadlinkwork/cloud_trunk/developer/dnakitv3/trunk/dnakitfront:/home/wangjc/broadlinkwork/cloud_trunk/developer/dnakitv3/branch_1/dnakit3rd:/home/wangjc/broadlinkwork/cloud_trunk/developer/dnakitv3/branch_1/dnakitfront:/home/wangjc/broadlinkwork/cloud_trunk/pkg/src/supernatural
+export PATH=$PATH:/home/wangjc/gopath/bin
+
+
+
