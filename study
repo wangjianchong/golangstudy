@@ -136,6 +136,12 @@ http://www.ghugo.com/update-multiple-rows-with-different-values-and-a-single-sql
 
 select concat(round(sum(data_length/1024/1024),2),'MB') as data from tables where table_schema='home';
 https://www.gitbook.com/book/yeasy/blockchain_guide/details  区块链技术指南
+
+
+golang book
+
+
+=======
 http://zhibimo.com/read/wang-miao/mastering-bitcoin/Chapter01.html 精通比特币
 
 golang book
