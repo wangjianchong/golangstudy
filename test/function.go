@@ -6,6 +6,10 @@ import (
 
 //translate array to daydata struct
 func trsArrTodayData(record []string) (dayData, error) {
+	var err error
+	// if len(record) != 16 {
+	// 	return dayData{}, err
+	// }
 	closingprice, err := strconv.ParseFloat(record[3], 64)
 	if err != nil {
 		Error(err)
