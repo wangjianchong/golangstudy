@@ -1,0 +1,4 @@
+svn diff -r 5:6 text.c  比价两个版本不同
+svn diff 缓存和上个版本的不同
+svn revert (-R)  放弃未提交的修改 一旦选择恢复,Subversion没有方法找到未提交的修改
+svn update(更新到最新版本) / svn log(找到你想要回滚的版本) / svn merge -r : something(使用merge进行回滚)
